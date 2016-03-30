@@ -1,0 +1,10 @@
+0106 Template Files Updates
+
+https://www.diffchecker.com
+
+ vimdiff c:/xampp/htdocs/wooBGtree/wp-content/themes/twentytwelve-child/woocommerce/archive-product.php  c:/xampp/htdocs/wooBGtree/wp-content/plugins/woocommerce/templates/archive-product.php
+
+diff c:/xampp/htdocs/wooBGtree/wp-content/themes/twentytwelve-child/woocommerce/archive-product.php  c:/xampp/htdocs/wooBGtree/wp-content/plugins/woocommerce/templates/archive-product.php
+
+sdiff c:/xampp/htdocs/wooBGtree/wp-content/themes/twentytwelve-child/woocommerce/archive-product.php  c:/xampp/htdocs/wooBGtree/wp-content/plugins/woocommerce/templates/archive-product.php
+
