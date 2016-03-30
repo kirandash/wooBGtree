@@ -15,3 +15,15 @@ sdiff c:/xampp/htdocs/wooBGtree/wp-content/themes/twentytwelve-child/woocommerce
 2. Searching templates - BEST
 
 3. Inspect and search and delete code.
+
+0201 The Main Shop Template
+
+1. woocommerce_output_content_wrapper
+
+2. woocommerce_product_loop_start
+
+3. add_filter( 'loop_shop_columns', function(){ return 2; } );
+
+4. remove_action('woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5);
+
+4. 
