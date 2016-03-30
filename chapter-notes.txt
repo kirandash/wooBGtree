@@ -8,3 +8,10 @@ diff c:/xampp/htdocs/wooBGtree/wp-content/themes/twentytwelve-child/woocommerce/
 
 sdiff c:/xampp/htdocs/wooBGtree/wp-content/themes/twentytwelve-child/woocommerce/archive-product.php  c:/xampp/htdocs/wooBGtree/wp-content/plugins/woocommerce/templates/archive-product.php
 
+0108 Finding Help for Using WooCommerce Hooks
+
+1. Through web
+
+2. Searching templates - BEST
+
+3. Inspect and search and delete code.

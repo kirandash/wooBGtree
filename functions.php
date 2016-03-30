@@ -2,6 +2,12 @@
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;
 
+// Remove sorting
+//remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
+
+
+
+
 // BEGIN ENQUEUE PARENT ACTION
 // AUTO GENERATED - Do not modify or remove comment markers above or below:
 
