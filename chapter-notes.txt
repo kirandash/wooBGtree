@@ -33,3 +33,12 @@ var_export( $wp_filter['woocommerce_cart_collaterals'] );
 
 // Remove woocommerce_cross_sell_display
 remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display', 10  );
+
+0302 Checkout Template Files
+
+global $wp_filter;
+var_export( $wp_filter['woocommerce_before_checkout_form'] );
+
+global $wp_filter;
+var_export( $wp_filter['woocommerce_checkout_billing'] );
+
