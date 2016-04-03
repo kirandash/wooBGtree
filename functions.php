@@ -2,6 +2,9 @@
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;
 
+// Remove woocommerce_cross_sell_display
+remove_action( 'woocommerce_cart_collaterals', 'woocommerce_cross_sell_display', 10  );
+
 // Remove sorting
 //remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 
